@@ -1,0 +1,7 @@
+tuumat = float(input("Anna tuumien määrä: "))
+
+while tuumat >= 0:
+    sentit = 2.54 * tuumat
+    print(f"{tuumat} tuumaa = {sentit} cm")
+    
+    tuumat = float(input("Anna tuumien määrä: "))
