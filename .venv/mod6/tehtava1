@@ -1,0 +1,11 @@
+import random
+
+maara = int(input("Anna noppien määrä: "))
+
+summa = 0
+
+for n in range(maara):
+    silmaluku = random.randint(1, 6)
+    summa = summa + silmaluku
+
+print("Silmälukujen summa:", summa)

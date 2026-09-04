@@ -12,4 +12,7 @@ Tein tehtävät 1, 2, 3, 4, 5 ja 6
 Tein tehtävät 1,2,3,4
 
 ## Moduuli 5
-Tein tehtävät 1,2,
+Tein tehtävät 1,2,3
+
+## Moduuli 6
+Tein tehtävät 1,2
