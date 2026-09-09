@@ -1,0 +1,13 @@
+import random
+
+def nopanheitto(tahkot):
+    return random.randint(1, tahkot)
+
+
+suurin_silmaluku = int(input("Anna nopan maksimisilmäluku: "))
+
+silmaluku = 0
+
+while silmaluku != suurin_silmaluku:
+    silmaluku = nopanheitto(suurin_silmaluku)
+    print(silmaluku)

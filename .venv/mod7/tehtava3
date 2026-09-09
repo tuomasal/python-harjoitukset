@@ -1,0 +1,9 @@
+def gallonat_litroina(gallonat):
+    return gallonat * 3.785
+
+gallonat = float(input("Syötä bensiinin määrä gallonoina:"))
+
+while gallonat >= 0:
+    litrat = gallonat_litroina(gallonat)
+    print(litrat, "litraa")
+    gallonat = float(input("Syötä bensiinin määrä gallonoina:"))
