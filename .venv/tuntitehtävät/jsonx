@@ -1,0 +1,12 @@
+import json
+
+elokuva = {
+    "nimi": "Inception",
+    "vuosi": 2010,
+    "näyttelijät": {"Sam Smith", "Jane Doe"}
+
+}
+
+with open("elokuva.json", "r") as tiedosto:
+    data = json.load(tiedosto)
+    

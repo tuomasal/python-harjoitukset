@@ -1,0 +1,6 @@
+with open("ostoslista.txt", "r") as tiedosto:
+    data = tiedosto.readlines()
+    for esine in data: 
+        print(esine, end="")
+    print(f"Esineiden määrä: {len(data)}")
+
