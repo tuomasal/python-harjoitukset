@@ -1,1 +1,1 @@
-Seikkailet jne
+Pääset etenemään pelissä numeronäppäimillä. Peli aloitetaan komennolla aloita ja lopetetaan komennolla lopeta. Onnea peliin!
