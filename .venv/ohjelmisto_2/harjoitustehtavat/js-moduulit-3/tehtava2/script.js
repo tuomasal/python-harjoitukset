@@ -9,7 +9,7 @@ for (let i = 0; i < maara; i++) {
 
 nimet.sort();
 let lista = document.querySelector("#osallistujat")
-for (let i = 0; i. nimet.length; i++) {
+for (let i = 0; i < nimet.length; i++) {
     let asia = document.createElement("li");
     asia.textContent = nimet[i];
     lista.appendChild(asia);
